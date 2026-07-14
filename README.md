@@ -1,5 +1,11 @@
 # jsonresume-theme-straightforward
 
+
+### Fork Note:
+This is the same "straightforwad" theme by "slugstack", with minor stylistic changes to suit my personal needs, feel free to use.
+
+---
+
 A straightforward [jsonresume](https://github.com/jsonresume) theme. Uses [resumed](https://jsonresume.org/cli) as the cli runner.
 
 Fork freely, make it your own.
