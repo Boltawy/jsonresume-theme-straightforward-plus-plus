@@ -1,465 +1,245 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "meta": {
-    "theme": "professional",
-    "lastModified": "2026-03-12T00:00:00.000Z"
-  },
   "basics": {
-    "name": "Thomas Davis",
-    "phone": "0411021021",
-    "label": "Full Stack Developer & AI Engineer",
-    "image": "https://avatars0.githubusercontent.com/u/416209?s=460&u=38f220a2c9c658141804f881c334c594eb1642ac&v=4",
-    "summary": "Full stack developer with 15+ years building products from the ground up at startups and open source. Recently focused on generative AI — building LLM-powered applications with Vercel AI SDK, designing MCP tool ecosystems, and creating AI agent infrastructure. Product-minded engineer who ships fast and prioritizes user feedback.",
-    "website": "https://ajaxdavis.dev",
-    "url": "https://ajaxdavis.dev",
-    "email": "thomasalwyndavis@gmail.com",
+    "name": "Zeyad Ismail Hamdalla",
+    "label": "Full-Stack Software Developer",
+    "email": "boltawy.dev@gmail.com",
+    "phone": "+201558423282",
+    "url": "https://boltfolio.vercel.app",
+    "summary": "Full-Stack developer with 1+ years of experience of building features and products in startups, with a passion for building functional software that optimizes workflows and improves the lives of its users, seeking opportunities to contribute to software and systems that propel people and businesses forward.",
     "location": {
-      "city": "Melbourne",
-      "countryCode": "AU"
+      "countryCode": "EG",
+      "region": "Egypt",
+      "city": "Alexandria"
     },
     "profiles": [
       {
-        "username": "ajaxdavis",
-        "url": "https://twitter.com/ajaxdavis",
-        "network": "twitter"
+        "network": "LinkedIn",
+        "username": "boltawy",
+        "url": "https://linkedin.com/in/boltawy"
       },
       {
-        "url": "https://github.com/thomasdavis",
-        "username": "thomasdavis",
-        "network": "github"
+        "network": "GitHub",
+        "username": "boltawy",
+        "url": "https://github.com/boltawy"
       }
     ]
   },
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native Language"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "German",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "work": [
+    {
+      "name": "Rockai Dev",
+      "position": "Full-Stack Developer",
+      "location": "Alexandria, On-Site",
+      "url": "https://www.rockaidev.com",
+      "startDate": "2025-11",
+      "endDate": "2026-06",
+      "highlights": [
+        "Served as the Primary Backend Developer behind a medium-sized (40K+ LOC) Real Estate platform, architecting and building a scalable backend that powers three frontend applications: a client-facing website, an internal Admin & Sales dashboard, a mobile application, and three AI services.",
+        "Architected and built a comprehensive event-logging system supporting advanced dashboard analytics, detailed audit logs, and user personalization to gather insights and help build an AI user recommendation system.",
+        "Contributed to the company’s flagship SaaS product Propai CRM by designing and owning the subscription, renewal, and provisioning modules.",
+        "Automated payments via Paymob and secured distributed server-to-server communication using encrypted JWT-based authentication.",
+        "Rebuilt the admin dashboard backend to support subscription management and customer support operations.",
+        "Systematically refactored legacy sections to improve overall system stability and maintainability.",
+        "Worked on the EATN app available on both Android & iOS, developed for the EATN 4 event held on May 15, 2026.",
+        "The platform served as an event companion application, similar to Techne Summit and Connecta, providing attendees with agenda management, session tracking, notifications, and event engagement tools.",
+        "Supported 3,000+ concurrent users during the event day."
+      ]
+    },
+    {
+      "name": "Sputnik Academy",
+      "position": "Backend Developer",
+      "location": "Alexandria, Hybrid",
+      "url": "https://www.linkedin.com/company/sputnik-academy",
+      "startDate": "2025-07",
+      "endDate": "2025-10",
+      "highlights": [
+        "Worked in a team to develop a comprehensive ERP system custom-made to fit Sputnik Academy's needs as a quickly growing startup.",
+        "Developed a robust authentication & authorization system using RBAC and ABAC concepts with OAuth 2.0, borrowing concepts and best practices from identity platforms like Auth0.",
+        "Provided up-to-date internal documentation of the backend project, allowing new backend interns and team members to onboard quickly and contribute safely."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nirvalla Tasks",
+      "description": "A personal open-source full-stack task management app similar in functionality to Google Tasks.",
+      "url": "https://nirvalla-tasks.vercel.app",
+      "highlights": [
+        "Implemented drag-and-drop task reordering, nested subtasks, and list organization using React, Tailwind CSS, and DnD-Kit.",
+        "Designed the backend with Node.js, Express, and MongoDB, emphasizing data ownership and user privacy.",
+        "Engineered the system for expandability, with future modules planned for calendar, journaling, and knowledge management."
+      ],
+      "keywords": [
+        "React",
+        "Tailwind CSS",
+        "DnD-Kit",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Spicy Tower",
+      "description": "A vertical arcade-style web game where players climb platforms to achieve a high score.",
+      "url": "https://spicy-tower.vercel.app",
+      "highlights": [
+        "Built using JavaScript, HTML5 Canvas, and Kaplay.js game library.",
+        "Implemented responsive controls optimized for desktop and mobile browsers.",
+        "Implemented gameplay mechanics including increasing difficulty, shrinking platforms, music, and an AI-generated voice."
+      ],
+      "keywords": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "Kaplay.js",
+        "Game Development"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
+      "institution": "Alexandria University",
+      "area": "Agricultural Science",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+      "endDate": "2024"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Programming Fundamentals",
+      "issuer": "Route Academy",
+      "highlights": [
+        "Programming Fundamentals",
+        "Object Oriented Programming",
+        "Data Structures and Algorithms in C++"
+      ]
+    },
+    {
+      "name": "Front-End Development with React",
+      "issuer": "Route Academy",
+      "highlights": [
+        "HTML/CSS",
+        "JavaScript",
+        "React Ecosystem"
+      ]
+    },
+    {
+      "name": "Back-End Development with Node.js",
+      "issuer": "Route Academy",
+      "highlights": [
+        "Node.js",
+        "Express",
+        "Nest.js",
+        "SQL & NoSQL Databases",
+        "Authentication & Authorization"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Responsive Web Design",
+        "UI/UX Design",
+        "Search Engine Optimization (SEO)"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Node.js",
+        "Nest.js",
+        "Express.js",
+        "Database Fundamentals",
+        "MongoDB",
+        "PostgreSQL",
+        "Prisma",
+        "RESTful APIs",
+        "Authentication & Authorization",
+        "OAuth 2.0",
+        "JWT"
+      ]
+    },
+    {
+      "name": "Tools & Services",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "OpenAPI",
+        "Cloudinary"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "keywords": [
+        "Modular Architecture",
+        "Clean Code",
+        "Debugging",
+        "Performance Optimization",
+        "Systems Thinking"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Self-directed learning",
+        "Strong verbal and written communication",
+        "Problem solving",
+        "Teamwork and conflict resolution",
+        "Attention to detail"
       ]
     }
   ],
   "references": [
     {
-      "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.",
-      "name": "Joey Flores, Co-founder and CEO of Earbits, Inc."
+      "name": "Moamen Osama (AI Engineer)",
+      "reference": "Working with Zeyad at RockAI was one of the most impactful professional experiences I've had. He wasn't just a backend developer. He was a mentor in the truest sense.\n\nAt a time when I was still finding my footing in backend systems, Zeyad never made me feel like the questions were too basic or the gaps too wide. He took the time to explain the \"why\" behind architectural decisions, not just the \"how\". And that distinction changed the way I think about engineering entirely.\n\nBecause of him, I can now collaborate confidently with any backend engineer, on any stack, in any context. That's not a small thing. That's the kind of growth that compounds over an entire career.\n\nZeyad brings rare technical depth, genuine patience, and the kind of quiet confidence that makes everyone around him better. Any team that gets him is lucky, and I mean that."
     },
     {
-      "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!",
-      "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc."
+      "name": "Mohamed Rshad (Flutter Developer / Software Engineer)",
+      "reference": "I had the pleasure of working with Zeyad on multiple projects, and one of the things that stood out most was his exceptional communication skills. As a Full Stack Developer, he has a unique ability to connect with frontend, backend, and mobile developers and explain ideas clearly while also understanding everyone’s perspectives equally well. He naturally becomes the bridge that keeps the team aligned.\n\nZeyad is one of the most organized people I’ve worked with, and his way of working positively influences everyone around him. We worked together on a large-scale project, EATN Event, under tight deadlines and heavy pressure, and he consistently delivered everything I needed on the backend side, which helped me complete my work efficiently and on time.\n\nBeyond his technical skills, Zeyad is someone I personally learned a lot from both professionally and socially. Whenever I faced a challenge, he was often the person with a solution or valuable advice. He is highly reliable, trustworthy, supportive, and genuinely cares about helping his team succeed. I’m truly grateful to have worked with someone like him, and any team would lucky to have him."
     },
     {
-      "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player.",
-      "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet"
+      "name": "Alaa Ahmed (UI/UX Designer & Framer Specialist)",
+      "reference": "I had the chance to work closely with Zeyad Ismail, and honestly he is one of the most dedicated and reliable full-stack developers I’ve worked with.\n\nHe is extremely detail-oriented, highly organized, and always able to manage projects in a structured and professional way. Whenever I work on a project, he’s one of the first people I ask for feedback because of how logical, smart, and thoughtful his thinking process is.\n\nZiad has a strong ability to take ownership of large projects, divide tasks efficiently, organize workflows, and handle responsibilities with confidence.\n\nBeyond his technical skills, he is also a great speaker and communicator, which makes working with him very smooth and productive.\n\nWhat really stands out about him is his passion for software and continuous learning.\n\nHe’s always improving himself, exploring new technologies, and helping everyone around him.\n\nNo matter the situation, he’s always supportive, a great listener, and someone the team can truly rely on.\n\nI truly believe he has a very bright future ahead, and any team would be lucky to have him."
     },
     {
-      "reference": "On Thomas Davis... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do.",
-      "name": "Greg Davis"
-    }
-  ],
-  "skills": [
-    {
-      "name": "AI & LLMs",
-      "level": "Advanced",
-      "keywords": [
-        "Vercel AI SDK",
-        "OpenAI API",
-        "Anthropic API",
-        "Google Gemini",
-        "Structured Outputs",
-        "Embeddings / Vector Search",
-        "RAG Pipelines",
-        "AI Agents",
-        "Model Context Protocol (MCP)",
-        "Prompt Engineering",
-        "LLM Training (from scratch)",
-        "Autograd / Tensor Operations"
-      ]
+      "name": "Bassem Hazem (Project Manager & Full-Stack Developer)",
+      "reference": "I am writing to highly recommend Zeyad I. Hamdalla, who worked with me as a Full Stack Software Developer for approximately seven months.\n\nThroughout this time, Zeyad demonstrated an exceptional level of focus, self-organization, and technical proficiency, particularly in his backend development work. He consistently approached his tasks with a high standard of perfection, ensuring that every detail was carefully considered and properly tested.\n\nZeyad is extremely disciplined and strict about following processes. His curiosity about the codebase and his dedication to documentation were instrumental to maintaining high-quality outcomes. He leaves a strongly positive impact on the team, not only through his professional output but also by being a supportive and collaborative colleague.\n\nGiven his organizational skills and dedication, I am confident Zeyad would be an asset to any organization."
     },
     {
-      "name": "Frontend",
-      "level": "Senior",
-      "keywords": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "JavaScript",
-        "HTML / JSX",
-        "Tailwind CSS",
-        "Styled Components",
-        "Redux",
-        "Apollo / GraphQL",
-        "Electron",
-        "Three.js",
-        "Backbone.js"
-      ]
+      "name": "Ahmed Soliman (Software Engineer / Mid-Level Full-Stack Developer)",
+      "reference": "Zeyad is a remarkably talented software engineer and an even better colleague. I’ve had the privilege of working with him on several projects, where he consistently impressed me with his API and database design skills. What makes him truly unique is his sharp business acumen; Zeyad doesn't just write great code, he has a rare ability to deeply understand business goals and align his technical architecture to meet those specific needs.\n\nHe possesses a powerful combination of sharp logical thinking and rapid learning agility—he can pick up any new concept and implement it flawlessly in record time. Above all, his discipline, punctuality, and unwavering commitment to his word make him stand out. Zeyad is the kind of professional you rarely find in this industry, and he would be an invaluable asset to any team."
     },
     {
-      "name": "Backend",
-      "level": "Senior",
-      "keywords": [
-        "Node.js",
-        "Go",
-        "Python",
-        "Ruby on Rails",
-        "PostgreSQL",
-        "MongoDB",
-        "Redis",
-        "Supabase",
-        "REST APIs",
-        "WebSockets",
-        "Deno"
-      ]
-    },
-    {
-      "name": "Cloud & DevOps",
-      "level": "Senior",
-      "keywords": [
-        "Google Cloud Platform (GCP)",
-        "Kubernetes",
-        "AWS",
-        "Docker",
-        "Vercel",
-        "Railway",
-        "Heroku",
-        "GitHub Actions",
-        "CI/CD Pipelines",
-        "Serverless",
-        "Cloudflare"
-      ]
-    },
-    {
-      "name": "Architecture & Tooling",
-      "level": "Senior",
-      "keywords": [
-        "Monorepos (Turborepo)",
-        "System Design",
-        "API Design",
-        "Microservices",
-        "Real-time Systems (Pusher / Yjs)",
-        "CLI Tools",
-        "npm Package Publishing",
-        "Open Source Maintenance"
-      ]
-    },
-    {
-      "name": "Low-Level & GPU",
-      "level": "Intermediate",
-      "keywords": [
-        "C",
-        "Vulkan",
-        "SPIR-V Shader Generation",
-        "GPU Compute",
-        "Mixed Precision (FP16)"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Defender of the Internet",
-      "awarder": "Fight For The Future",
-      "date": "2014-10-02",
-      "summary": "For my work against mass surveillance and building out civic tools for digital democracy."
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Open Source Project",
-      "position": "Contributor",
-      "url": "http://opensourceproject.com",
-      "startDate": "2016-01-01",
-      "summary": "Contributing to open source projects to improve software quality.",
-      "highlights": [
-        "Fixed critical bugs and added new features.",
-        "Mentored new contributors."
-      ]
-    }
-  ],
-  "work": [
-    {
-      "summary": "Working at early-stage startups building generative AI products. Building full stack applications with Vercel AI SDK, designing LLM pipelines with structured outputs, implementing vector search and RAG systems, and creating AI agent tooling including MCP servers and Claude Code skills. Managing cloud infrastructure on GCP with Kubernetes for production workloads.",
-      "website": "https://ajaxdavis.dev/",
-      "name": "Misc Companies",
-      "location": "Melbourne",
-      "position": "Product Engineer (AI Focus)",
-      "startDate": "2020-05-05",
-      "highlights": [
-        "Vercel AI SDK / OpenAI / Anthropic",
-        "Structured outputs, embeddings, vector search",
-        "MCP servers and AI agent infrastructure",
-        "GCP / Kubernetes / Cloud Infrastructure",
-        "React / Next.js / TypeScript",
-        "Node.js / PostgreSQL / Supabase"
-      ]
-    },
-    {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "website": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "endDate": "2021-05-05",
-      "highlights": [
-        "React",
-        "Redux",
-        "SCSS",
-        "Product"
-      ]
-    },
-    {
-      "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
-      "website": "https://platform.blockbid.io",
-      "name": "Blockbid",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2020-01-01",
-      "highlights": [
-        "React, Apollo, Styled Components",
-        "Node.js / Rails",
-        "Docker / Heroku / GCP",
-        "Used Figma for design and UX work",
-        "Optimizing markets with tens of millions of rows using SQL."
-      ]
-    },
-    {
-      "highlights": [
-        "Worked with Postgres, Redis and Dynamodb for storage.",
-        "Hosted on a mixture of Heroku Apps and EC2 servers.",
-        "Caching by Fastly and Cloudflare",
-        "Hybrid app supported on all platforms"
-      ],
-      "summary": "Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)",
-      "website": "https://listium.com",
-      "pinned": true,
-      "name": "Listium",
-      "position": "Developer",
-      "startDate": "2016-01-01",
-      "endDate": "2018-01-01"
-    },
-    {
-      "highlights": [
-        "Developed new tools for contacting congress",
-        "Brainstormed campaign ideas to raise maximum awareness about issues",
-        "Lots of social networking integration"
-      ],
-      "summary": "Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.",
-      "website": "http://www.eff.org",
-      "name": "Electronic Frontier Foundation",
-      "position": "Developer",
-      "startDate": "2014-04-01",
-      "endDate": "2016-01-01"
-    },
-    {
-      "highlights": [
-        "Managed a small team of developers and designers",
-        "Built the entire frontend application with Backbone.js",
-        "Transferred all of the infrastructure from Heroku to AWS"
-      ],
-      "summary": "Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.",
-      "website": "http://www.earbits.com",
-      "name": "Earbits",
-      "position": "CTO",
-      "endDate": "2015-01-09",
-      "startDate": "2013-03-08"
-    },
-    {
-      "highlights": [
-        "This resume is built with JSON Resume",
-        "Over 5000 stars on Github",
-        "Community developed themes",
-        "Tens of thousands of users"
-      ],
-      "summary": "JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.",
-      "website": "http://jsonresume.org",
-      "pinned": true,
-      "name": "JSON Resume",
-      "position": "Founder",
-      "startDate": "2014-04-01"
-    },
-    {
-      "highlights": [
-        "Generated  37,000,000 banner views",
-        "100, 000 phone calls to congress",
-        "500, 000 emails",
-        "250, 000 signatures"
-      ],
-      "summary": "Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was \"TheDayWeFightBack\"..",
-      "website": "http://www.taskforce.is",
-      "name": "Taskforce.is",
-      "position": "Developer",
-      "startDate": "2013-06-01",
-      "endDate": "2016-01-01"
-    },
-    {
-      "highlights": [
-        "The site and blog combined have managed to receive over 200,000 visitors in 2014."
-      ],
-      "summary": "An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. ",
-      "website": "http://www.dronehire.org",
-      "name": "Drone Hire",
-      "position": "Co-Founder",
-      "startDate": "2013-01-01"
-    },
-    {
-      "highlights": [
-        "Over two million unique visitors a year",
-        "25,000+ ebook downloads",
-        "300,000+ Youtube views"
-      ],
-      "summary": "I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.",
-      "website": "http://backbonetutorials.com",
-      "name": "BackboneTutorials.com",
-      "position": "Founder",
-      "startDate": "2011-01-01",
-      "endDate": "2014-01-01"
-    },
-    {
-      "summary": "Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.",
-      "website": "http://ephox.com",
-      "name": "Ephox",
-      "position": "Front-end Developer",
-      "endDate": "2012-06-01",
-      "startDate": "2011-01-01"
-    }
-  ],
-  "projects": [
-    {
-      "name": "JSON Resume",
-      "startDate": "2014-04-01",
-      "description": "Community-driven open source standard for resumes in JSON format. Recently added AI-powered job matching using vector embeddings, GPT-powered job parsing, and a Claude Code skill for interactive job hunting.",
-      "highlights": [
-        "5000+ GitHub stars, tens of thousands of users",
-        "AI job matching with vector embeddings and semantic search",
-        "Built with Next.js, Supabase, Vercel AI SDK",
-        "Community developed themes ecosystem"
-      ],
-      "website": "http://jsonresume.org"
-    },
-    {
-      "name": "Cdnjs",
-      "startDate": "2011-01-08",
-      "description": "Following Google's CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.",
-      "highlights": [
-        "Millions of sites use the CDN in production",
-        "Larger market share than Yahoo's, Microsoft's and Google's javascript content distribution networks",
-        "We serve hundreds of billions request a month",
-        "Contains over 3000 popular Javascript libraries"
-      ],
-      "website": "http://www.cdnjs.com"
-    },
-    {
-      "name": "Omega",
-      "startDate": "2025-06-01",
-      "description": "Self-evolving AI Discord bot with 80+ specialized tools, multi-database architecture, and autonomous development capabilities. Built with Vercel AI SDK, Discord.js, and Next.js.",
-      "highlights": [
-        "80+ AI tools including code execution in 42+ languages",
-        "Self-evolution capability — analyzes behavior and proposes improvements via GitHub issues",
-        "Dual database architecture (PostgreSQL + MongoDB)",
-        "AI-powered decision making for natural conversation participation"
-      ],
-      "url": "https://github.com/thomasdavis/omega"
-    },
-    {
-      "name": "Alpha",
-      "startDate": "2025-09-01",
-      "description": "From-scratch GPT training and inference system built in TypeScript with a hand-written C Vulkan addon for GPU compute. No PyTorch or TensorFlow — custom tensor backend, autograd, tokenizers, training loop, and inference engine.",
-      "highlights": [
-        "Custom tensor backend with tape-based reverse-mode autodiff",
-        "Hand-written Vulkan GPU backend with TS-generated SPIR-V kernels",
-        "Full training pipeline: BPE tokenizers, checkpointing, eval, sampling",
-        "OpenAI-compatible chat API, CLI, web dashboard, and TUI"
-      ],
-      "url": "https://github.com/thomasdavis/alpha2"
-    },
-    {
-      "name": "TPMJS",
-      "startDate": "2025-06-01",
-      "description": "The Tool Package Manager for AI Agents. An open-source registry and execution platform that automatically discovers, validates, and runs npm packages as AI agent tools via MCP, SDK, or CLI.",
-      "highlights": [
-        "Auto-discovers npm packages with tpmjs keyword",
-        "Sandboxed tool execution via Deno runtime",
-        "MCP aggregator for connecting tool collections to Claude, Cursor, etc.",
-        "Agent platform for building, sharing, and forking AI agents"
-      ],
-      "url": "https://tpmjs.com"
-    },
-    {
-      "name": "Blocks",
-      "startDate": "2025-11-01",
-      "description": "AI coding validator with semantic guardrails. A development-time validator that lets AI agents write code freely while maintaining consistency through domain semantics and multi-layer validation.",
-      "highlights": [
-        "Domain specification via blocks.yml for entities, signals, measures, and rules",
-        "Multi-layer validation: Schema, Shape, and AI-powered Domain checks",
-        "Semantic feedback loop for AI coding tools",
-        "Drift detection between code and specification"
-      ],
-      "url": "https://github.com/thomasdavis/blocks"
-    },
-    {
-      "name": "MobTranslate",
-      "startDate": "2024-12-07",
-      "endDate": "2025-02-27",
-      "description": "Open-source Indigenous language dictionary platform supporting advanced search, real-time AI translation, and server-side rendering. Built with Next.js and Turborepo.",
-      "highlights": [
-        "Implemented multilingual dictionary with advanced search and pagination.",
-        "Added real-time translation API using AI techniques.",
-        "Optimized performance with server-side rendering (Next.js).",
-        "Structured codebase as a monorepo using Turborepo."
-      ],
-      "url": "https://github.com/yourusername/mobtranslate.com"
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Gardening",
-      "keywords": [
-        "Lazy Gardening"
-      ]
-    },
-    {
-      "name": "Music",
-      "keywords": [
-        "Guitar",
-        "Singing",
-        "Dancing"
-      ]
-    },
-    {
-      "name": "Books",
-      "keywords": [
-        "Reading",
-        "Writing",
-        "History"
-      ]
-    },
-    {
-      "name": "Open Source",
-      "keywords": [
-        "All of it"
-      ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "Mohamed Adel Eletewy (Software Developer / Programming Instructor)",
+      "reference": "I had the pleasure of teaching Zeyad, and he’s one of the most creative and hardworking students I’ve met. He’s smart, detail-oriented, and always brings fresh ideas to the table. Any team would be lucky to have him."
     }
   ]
 }
