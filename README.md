@@ -1,4 +1,4 @@
-# jsonresume-theme-straightforward-plus-plus
+# jsonresume-theme-straightforward-extra
 
 
 ### Fork Note:

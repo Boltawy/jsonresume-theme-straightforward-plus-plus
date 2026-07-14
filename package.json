@@ -1,12 +1,12 @@
 {
-  "name": "jsonresume-theme-straightforward-plus-plus",
+  "name": "jsonresume-theme-straightforward-extra",
   "private": false,
   "version": "0.1.0",
   "description": "a straightforward jsonresume theme, forked for minor stylistic enhancements",
-  "homepage": "https://github.com/Boltawy/jsonresume-theme-straightforward-plus-plus",
+  "homepage": "https://github.com/Boltawy/jsonresume-theme-straightforward-extra",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Boltawy/jsonresume-theme-straightforward-plus-plus"
+    "url": "https://github.com/Boltawy/jsonresume-theme-straightforward-extra"
   },
   "license": "MIT",
   "author": "Aaron Gershman",
